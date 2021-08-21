@@ -1,0 +1,194 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/* heading part */
+
+.heading{
+    background-color: #34495e;
+}
+
+/* banner part */
+
+.banner img{
+    width: 100%;
+}
+
+/* title part */
+
+.title-section{
+    background-color: #0d6efd;
+}
+
+.title-1{
+    background-color: #e67c22;
+    width: 40%;
+    border-radius: 0 40px 40px 0;
+    margin: 70px 200px 50px;
+    box-shadow: 3px 3px 4px 1px rgba(14, 32, 58, 0.349);
+    border-left: 3px solid #181717;
+    float: left;
+    clear: right;
+}
+.title-2{
+    background-color: #1abc9c;
+    width: 40%;
+    border-radius:40px 0 0 40px;
+    margin: 0 200px 50px;
+    box-shadow: 4px 4px 4px 4px rgba(138, 75, 179, .6);
+    float: right;
+    clear: left;
+}
+.content h4{
+    color: #fff;
+}
+.content p{
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Flag section */
+
+.flag-section{
+    background: #4d687a;
+}
+
+.title h3{
+    color: #fff;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.flag h4{
+    color: #fff;
+}
+
+.bangladesh {
+    width: 22%;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+
+.green{
+    width: 300px;
+    height: 150px;
+    background: #008000;
+    position: relative;
+    box-shadow: 3px 3px 4px 4px rgba(242, 244, 247, 0.5);
+}
+
+.red{
+    background: #ff0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.england{
+    width: 26%;
+    margin-left: 4%;
+}
+
+.white-e{
+    background: #fff;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    box-shadow: 3px 3px 4px 4px rgba(242, 244, 247, 0.5);
+}
+
+.red-e-1{
+    background: #ff0000;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.red-e-2{
+    background: #ff0000;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 170px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.japan{
+    width: 24%;
+    margin-left: 3%;
+}
+
+.white-j{
+    width: 300px;
+    height: 150px;
+    background: #fff;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: 3px 3px 4px 4px rgba(242, 244, 247, 0.5);
+}
+
+.red-j{
+    background: #ff0000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.germany{
+    margin: 2% 0 0 36%;
+}
+
+.germany-flag{
+    box-shadow: 3px 3px 4px 4px rgba(242, 244, 247, 0.5);
+}
+
+.black{
+    width: 300px;
+    height: 50px;
+    background: #000;
+}
+
+.red-g{
+    width: 300px;
+    height: 50px;
+    background: #ff0000;
+}
+
+.yellow{
+    width: 300px;
+    height: 50px;
+    background: #ffff00;
+}
+
+.footer-section{
+    background: #198754;
+}
